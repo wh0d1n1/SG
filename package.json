@@ -10,7 +10,6 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "install": "yarn install",
     "eject": "react-scripts eject",
     "lint": "eslint --ext .js,.jsx .",
     "lint:fix": "eslint --fix --ext .js,.jsx .",
