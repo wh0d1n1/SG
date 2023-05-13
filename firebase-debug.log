@@ -1,0 +1,49 @@
+[debug] [2023-05-13T10:21:02.034Z] ----------------------------------------------------------------------
+[debug] [2023-05-13T10:21:02.048Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\T\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-05-13T10:21:02.049Z] CLI Version:   12.0.0
+[debug] [2023-05-13T10:21:02.050Z] Platform:      win32
+[debug] [2023-05-13T10:21:02.051Z] Node Version:  v16.15.0
+[debug] [2023-05-13T10:21:02.083Z] Time:          Sat May 13 2023 06:21:02 GMT-0400 (Eastern Daylight Time)
+[debug] [2023-05-13T10:21:02.084Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-05-13T10:21:02.381Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-05-13T10:21:02.382Z] > authorizing via signed-in user (travispadilla112@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\T\Documents\SG_CRM\Minimal_JavaScript_v4.3.0
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-05-13T10:22:28.230Z] Using project from CLI flag: the-m4g1c1an
+[debug] [2023-05-13T10:22:28.238Z] > refreshing access token with scopes: []
+[debug] [2023-05-13T10:22:28.254Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2023-05-13T10:22:28.256Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-05-13T10:22:28.585Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2023-05-13T10:22:28.585Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-05-13T10:22:28.621Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/the-m4g1c1an [none]
+[debug] [2023-05-13T10:22:29.005Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/the-m4g1c1an 200
+[debug] [2023-05-13T10:22:29.005Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/the-m4g1c1an {"projectId":"the-m4g1c1an","projectNumber":"836704981964","displayName":"-THE M4G1C1AN-","name":"projects/the-m4g1c1an","resources":{"hostingSite":"the-m4g1c1an","storageBucket":"the-m4g1c1an.appspot.com","locationId":"us-east1"},"state":"ACTIVE","etag":"1_a3ded4d6-eea1-4731-87de-5c5f6839204b"}
+[info] i  Using project the-m4g1c1an (-THE M4G1C1AN-) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
