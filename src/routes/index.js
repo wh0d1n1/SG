@@ -309,7 +309,8 @@ export default function Router() {
                 { path: 'tree-view', element: <MUITreesViewPage /> },
               ],
             },
-            {
+      {
+
               path: 'extra',
               children: [
                 { element: <Navigate to="/components/extra/animate" replace />, index: true },
@@ -356,5 +357,6 @@ export default function Router() {
       ],
     },
     { path: '*', element: <Navigate to="/404" replace /> },
-  ]);
+  ]
+  );
 }
