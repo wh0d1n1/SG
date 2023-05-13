@@ -4,8 +4,7 @@
   "version": "4.3.0",
   "engines": {
     "node": "12.x",
-    "yarn": "1.x",
-    "npm": "Please use yarn instead of NPM to install dependencies"
+    "yarn": "1.x"
   },
   "description": "Javascript Version",
   "private": true,
